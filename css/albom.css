@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(188, 226, 156);
+}
+.container{
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+.albom-h1{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 56px;
+    font-family: sans-serif;
+    font-weight: 400;
+    padding: 40px;
+}
+.albom-item{
+   width: 350px;
+   /* height: 200px; */
+   background-color: white;
+   padding: 20px 25px;
+   border-radius: 5px;
+}
+.albom-h3{
+    text-align: center;
+    color: rgb(63, 61, 61);
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+.albom-div{
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgb(127, 127, 241);
+    border-radius: 5px;
+}
+.alink-albom{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.albom-item3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}

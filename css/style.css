@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(110, 223, 233);
+}
+.container{
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+.User{
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.card-item{
+    /* border: 2px solid blue; */
+    border-radius: 15px;
+    width: 400px;
+    background-color: rgb(174, 217, 238);
+    padding: 10px 10px 10px 20px;
+}
+.card-h2{
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.card-h5{
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-bottom: 20px;
+    color: white;
+}
+.email{
+    padding-bottom: 10px;
+}
+.email{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.link-1{
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: rgb(238, 233, 233);
+    color: rgb(219, 96, 96);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.link-1:hover{
+    color: rgb(73, 73, 238);
+    background-color: rgb(158, 154, 154);
+    transition: 0.5s;
+}

@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(94, 159, 233);
+}
+.container{
+    max-width: 1300px;
+    padding: 0 20px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+.todos{
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.todoy-item{
+    padding: 17px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(230, 227, 227);
+    margin-bottom: 25px;
+}
+.todos-h4{
+    font-size: 18px;
+    color: rgb(71, 70, 70);
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.todos-span{
+    color: red;
+    font-size: 18px;
+}
+.span-true{
+    color: rgb(19, 240, 19);
+    font-size: 18px;
+}
